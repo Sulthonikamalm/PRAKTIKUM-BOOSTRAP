@@ -1,6 +1,6 @@
 # 🌐 Tugas Bootstrap - Layout Responsif
 
-Proyek ini merupakan implementasi halaman web **responsif** menggunakan **Bootstrap 5**.  
+Proyek ini merupakan implementasi halaman web **responsif** menggunakan **Bootstrap **.  
 Halaman ini dirancang dengan tampilan **clean, profesional, dan modern**, menampilkan dua gambar berbeda—  
 satu menggambarkan *Naruto & Sasuke*, dan satu lagi dari *Solo Leveling*—untuk memperlihatkan kemampuan tata letak fleksibel di berbagai ukuran layar.
 
@@ -54,5 +54,6 @@ Layout dua kolom ini otomatis berubah menjadi satu kolom ketika dibuka di perang
 ### 3. Footer
 Bagian bawah halaman menampilkan informasi hak cipta dengan gaya minimalis.  
 Footer berwarna putih, memiliki garis tipis di atasnya, dan teks berwarna abu-abu lembut agar tidak mencolok.
+
 
 ---
