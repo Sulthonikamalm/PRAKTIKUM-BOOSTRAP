@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Halaman Responsif - Tugas Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fb;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .navbar {
+      background-color: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .container-main {
+      max-width: 1100px;
+      margin: 60px auto;
+    }
+    .card {
+      border: none;
+      border-radius: 18px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .card img {
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+    }
+    footer {
+      background-color: #ffffff;
+      border-top: 1px solid #e5e7eb;
+      color: #6b7280;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="#">Tugas Lms</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#konten">Konten</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="text-center py-5">
+    <h1 class="fw-bold">Tugas Bootstrap: Layout Responsif Sulthonika Mahfudz Al Mujahidin</h1>
+    <p class="text-secondary">Dua kolom informasi dengan desain bersih dan profesional.</p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container container-main" id="konten">
+    <div class="row g-4">
+      <!-- Kolom 1 - Naruto & Sasuke -->
+      <div class="col-12 col-md-6">
+        <div class="card h-100">
+          <img src="tugas.jpg" alt="Naruto dan Sasuke" class="img-fluid">
+          <div class="card-body">
+            <h4 class="card-title fw-semibold">Naruto dan Sasuke</h4>
+            <p class="card-text text-secondary">
+              Gambar ini menampilkan dua karakter ikonik dari serial Naruto, yaitu Naruto Uzumaki dan Sasuke Uchiha.
+              Keduanya melambangkan keseimbangan antara tekad dan ambisi, serta perjalanan panjang menuju kedewasaan.
+              Dalam konteks desain web, gambar ini menggambarkan kolaborasi dua sisi berbeda yang berpadu secara harmonis.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kolom 2 - Solo Leveling -->
+      <div class="col-12 col-md-6">
+        <div class="card h-100">
+          <img src="tugas1.jpg" alt="Solo Leveling" class="img-fluid">
+          <div class="card-body">
+            <h4 class="card-title fw-semibold">Solo Leveling</h4>
+            <p class="card-text text-secondary">
+              Gambar ini berasal dari seri populer Solo Leveling yang menampilkan karakter utama Sung Jin-Woo bersama para shadow-nya.
+              Visual ini mencerminkan kekuatan, evolusi diri, dan semangat untuk terus berkembang.
+              Dalam konteks halaman ini, gambar ini menegaskan pentingnya progres dan pertumbuhan dalam setiap langkah pembelajaran.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <p>dibuat oleh Sulthonika Mahfudz Al Mujahidin</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
